@@ -1,3 +1,6 @@
+
+const factsAboutMe = ["Hristiyan", "Yordanov", 15, "Student"]; //The array array can inlude different types of data - e.g: string,int,bool,etc.
+
 const subjects = ["Math", "English", "German", "History"]; //The count starts from 0
 console.log(subjects.length) //Shows how many elements the array has
 
