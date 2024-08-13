@@ -17,7 +17,7 @@ const ageFunction = function ageCalc(birthYear){
 
 console.log(ageCalc(2008));
 
-//Arow function:
+//Arrow function:
 
 const ageFunction2 = (birthYear) => `I'm ${2024-birthYear} years old.`;
 console.log(ageFunction2(2008));
