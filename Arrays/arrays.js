@@ -53,7 +53,17 @@ console.log(subjects.indexOf("English"));  //Shows that english is 0 index
 console.log(subjects.indexOf("Spanish")); //Spanish is not in the array => it has index -1
 
 /*---------------------------------------------------------*/
-//Shows whether an element exists in the array - includes method
+//Shows whether an element exists in the array - includes method (boolean value - true or false)
 
 
+console.log(subjects.includes("Math")); //Math doesn't exist in the array => so the value is false
 
+console.log(subjects.includes("german")); // german doesn't exit but German exists => so the value is false 
+
+console.log(subjects.includes("German"));// German exists in the array => so the value is true
+
+//We can use includes method in conditions
+
+if (subjects.includes("German")){
+    console.log("German exists in the subjets array."); 
+}
