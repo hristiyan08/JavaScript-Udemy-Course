@@ -1,8 +1,3 @@
-/*This is the object. It's like an array but with some difference. 
-The first one is that the array doesn't have
-propertys (keywords) and the second one is that in the 
-array the order is important unlike objects.*/
-
 
 const factsAboutMe = {
      firstName: "Hristiyan",
